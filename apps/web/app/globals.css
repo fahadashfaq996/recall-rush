@@ -1,0 +1,579 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #06061a;
+  --bg-2: #0d0c2b;
+  --surface: rgb(255 255 255 / 0.045);
+  --surface-2: rgb(255 255 255 / 0.08);
+  --line: rgb(255 255 255 / 0.1);
+  --text: #eef0ff;
+  --muted: #9296c9;
+  --cyan: #22e6ff;
+  --magenta: #ff2bd6;
+  --lime: #b6ff3b;
+  --amber: #ffc43d;
+  --danger: #ff3d5e;
+  --violet: #8b5cff;
+  --success: #3dff8a;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-2: var(--bg-2);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--line);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-cyan: var(--cyan);
+  --color-magenta: var(--magenta);
+  --color-lime: var(--lime);
+  --color-amber: var(--amber);
+  --color-danger: var(--danger);
+  --color-violet: var(--violet);
+  --color-success: var(--success);
+  --font-display: var(--font-unbounded);
+  --font-sans: var(--font-inter);
+}
+
+html {
+  background: var(--bg);
+  color-scheme: dark;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: var(--magenta);
+  color: white;
+}
+
+:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 3px;
+}
+
+@layer components {
+  /* ---------- Neon helpers ---------- */
+
+  .neon-text-cyan {
+    color: #d9fbff;
+    text-shadow:
+      0 0 6px rgb(34 230 255 / 0.9),
+      0 0 24px rgb(34 230 255 / 0.6),
+      0 0 60px rgb(34 230 255 / 0.35);
+  }
+  .neon-text-magenta {
+    color: #ffe0f8;
+    text-shadow:
+      0 0 6px rgb(255 43 214 / 0.9),
+      0 0 24px rgb(255 43 214 / 0.6),
+      0 0 60px rgb(255 43 214 / 0.35);
+  }
+  .neon-text-lime {
+    color: #f1ffd9;
+    text-shadow:
+      0 0 6px rgb(182 255 59 / 0.9),
+      0 0 24px rgb(182 255 59 / 0.55),
+      0 0 60px rgb(182 255 59 / 0.3);
+  }
+  .neon-text-amber {
+    color: #fff3d6;
+    text-shadow:
+      0 0 6px rgb(255 196 61 / 0.9),
+      0 0 24px rgb(255 196 61 / 0.55),
+      0 0 60px rgb(255 196 61 / 0.3);
+  }
+  .neon-text-danger {
+    color: #ffe0e5;
+    text-shadow:
+      0 0 6px rgb(255 61 94 / 0.95),
+      0 0 24px rgb(255 61 94 / 0.6),
+      0 0 60px rgb(255 61 94 / 0.35);
+  }
+
+  .glass {
+    background: linear-gradient(180deg, rgb(255 255 255 / 0.07), rgb(255 255 255 / 0.025));
+    border: 1px solid var(--line);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
+
+  .btn-neon {
+    background: linear-gradient(100deg, var(--cyan), var(--violet) 55%, var(--magenta));
+    color: #05051a;
+    box-shadow:
+      0 0 0 1px rgb(255 255 255 / 0.15) inset,
+      0 10px 40px -8px rgb(255 43 214 / 0.65),
+      0 0 30px -4px rgb(34 230 255 / 0.55);
+    transition:
+      transform 0.15s ease,
+      box-shadow 0.2s ease,
+      filter 0.2s ease;
+  }
+  .btn-neon:hover {
+    filter: brightness(1.08) saturate(1.1);
+    box-shadow:
+      0 0 0 1px rgb(255 255 255 / 0.25) inset,
+      0 14px 50px -6px rgb(255 43 214 / 0.8),
+      0 0 44px -2px rgb(34 230 255 / 0.7);
+  }
+  .btn-neon:active {
+    transform: scale(0.97);
+  }
+
+  .btn-ghost {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    transition:
+      background 0.2s ease,
+      border-color 0.2s ease,
+      transform 0.15s ease;
+  }
+  .btn-ghost:hover {
+    background: var(--surface-2);
+    border-color: rgb(255 255 255 / 0.2);
+  }
+  .btn-ghost:active {
+    transform: scale(0.97);
+  }
+}
+
+/* ---------- Animated backdrop ---------- */
+
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  background:
+    radial-gradient(1200px 700px at 50% -10%, rgb(139 92 255 / 0.22), transparent 60%),
+    linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 100%);
+}
+.backdrop .blob {
+  position: absolute;
+  width: 55vmax;
+  height: 55vmax;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.32;
+  will-change: transform;
+}
+.backdrop .blob-a {
+  background: var(--magenta);
+  top: -20vmax;
+  left: -15vmax;
+  animation: drift-a 22s ease-in-out infinite alternate;
+}
+.backdrop .blob-b {
+  background: var(--cyan);
+  bottom: -25vmax;
+  right: -20vmax;
+  opacity: 0.22;
+  animation: drift-b 26s ease-in-out infinite alternate;
+}
+.backdrop .grid-floor {
+  position: absolute;
+  left: -50%;
+  right: -50%;
+  bottom: -10%;
+  height: 55%;
+  background-image:
+    linear-gradient(rgb(255 43 214 / 0.35) 1px, transparent 1px), linear-gradient(90deg, rgb(34 230 255 / 0.25) 1px, transparent 1px);
+  background-size: 64px 64px;
+  transform: perspective(420px) rotateX(62deg);
+  transform-origin: 50% 0%;
+  mask-image: linear-gradient(180deg, transparent 0%, black 45%, black 100%);
+  -webkit-mask-image: linear-gradient(180deg, transparent 0%, black 45%, black 100%);
+  opacity: 0.35;
+  animation: floor-scroll 3.5s linear infinite;
+}
+.backdrop .noise {
+  position: absolute;
+  inset: 0;
+  opacity: 0.06;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
+
+@keyframes drift-a {
+  to {
+    transform: translate(18vmax, 12vmax) scale(1.15);
+  }
+}
+@keyframes drift-b {
+  to {
+    transform: translate(-16vmax, -10vmax) scale(1.1);
+  }
+}
+@keyframes floor-scroll {
+  to {
+    background-position:
+      0 64px,
+      0 0;
+  }
+}
+
+/* ---------- Game stage ---------- */
+
+.game-root {
+  height: 100dvh;
+  overflow: hidden;
+  overscroll-behavior: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  touch-action: manipulation;
+}
+
+.shake {
+  animation: shake 0.45s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-2px, 1px, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(5px, -2px, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-9px, 3px, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(9px, -3px, 0);
+  }
+}
+
+.glitch {
+  position: relative;
+}
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.glitch::before {
+  color: var(--cyan);
+  transform: translate(-3px, 0);
+  mix-blend-mode: screen;
+  clip-path: inset(0 0 55% 0);
+  animation: glitch-a 1.6s steps(2, end) infinite;
+}
+.glitch::after {
+  color: var(--magenta);
+  transform: translate(3px, 0);
+  mix-blend-mode: screen;
+  clip-path: inset(50% 0 0 0);
+  animation: glitch-b 1.3s steps(2, end) infinite;
+}
+@keyframes glitch-a {
+  0%,
+  100% {
+    clip-path: inset(0 0 60% 0);
+    transform: translate(-3px, 0);
+  }
+  50% {
+    clip-path: inset(30% 0 35% 0);
+    transform: translate(3px, -1px);
+  }
+}
+@keyframes glitch-b {
+  0%,
+  100% {
+    clip-path: inset(55% 0 0 0);
+    transform: translate(3px, 0);
+  }
+  50% {
+    clip-path: inset(15% 0 60% 0);
+    transform: translate(-3px, 1px);
+  }
+}
+
+.timer-ring {
+  stroke: var(--cyan);
+  color: var(--cyan);
+  animation-name: timer-ring;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  filter: drop-shadow(0 0 2px currentColor) drop-shadow(0 0 6px currentColor);
+}
+@keyframes timer-ring {
+  0% {
+    stroke-dashoffset: 0;
+    stroke: var(--cyan);
+    color: var(--cyan);
+  }
+  55% {
+    stroke: var(--cyan);
+    color: var(--cyan);
+  }
+  75% {
+    stroke: var(--amber);
+    color: var(--amber);
+  }
+  99% {
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: 1;
+    stroke: var(--danger);
+    color: var(--danger);
+    opacity: 0;
+  }
+}
+
+.timer-ring-boss {
+  stroke: var(--magenta);
+  color: var(--magenta);
+  animation-name: timer-ring-boss;
+}
+@keyframes timer-ring-boss {
+  0% {
+    stroke-dashoffset: 0;
+    stroke: var(--magenta);
+    color: var(--magenta);
+  }
+  70% {
+    stroke: var(--magenta);
+    color: var(--magenta);
+  }
+  99% {
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: 1;
+    stroke: var(--danger);
+    color: var(--danger);
+    opacity: 0;
+  }
+}
+.boss-halo {
+  transform-box: view-box;
+  transform-origin: 50% 50%;
+  animation: boss-halo 1.2s ease-out infinite;
+  filter: drop-shadow(0 0 4px var(--magenta));
+}
+@keyframes boss-halo {
+  0% {
+    opacity: 0.9;
+    transform: scale(0.97);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.06);
+  }
+}
+
+/* The head dot rides the end of the arc: it starts at the top and travels back counter-clockwise. */
+.timer-ring-head {
+  transform-box: view-box;
+  transform-origin: 50% 50%;
+  animation-name: ring-head;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+@keyframes ring-head {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+.timer-ring-dot-boss {
+  fill: #ffe0f8 !important;
+  color: var(--magenta) !important;
+}
+.timer-ring-dot {
+  fill: #e9fdff;
+  color: var(--cyan);
+  animation-name: ring-dot;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  filter: drop-shadow(0 0 3px currentColor) drop-shadow(0 0 8px currentColor);
+}
+@keyframes ring-dot {
+  0%,
+  55% {
+    fill: #e9fdff;
+    color: var(--cyan);
+  }
+  75% {
+    fill: #fff3d6;
+    color: var(--amber);
+  }
+  99% {
+    opacity: 1;
+  }
+  100% {
+    fill: #ffe0e5;
+    color: var(--danger);
+    opacity: 0;
+  }
+}
+
+.dot-flash {
+  animation-name: dot-flash;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+}
+@keyframes dot-flash {
+  0% {
+    opacity: 0;
+    transform: scale(0.4);
+  }
+  8% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  85% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+}
+
+.cell-light {
+  animation-name: cell-light;
+  animation-duration: var(--step);
+  animation-timing-function: ease-out;
+}
+@keyframes cell-light {
+  0% {
+    background: var(--cyan);
+    box-shadow:
+      0 0 40px var(--cyan),
+      inset 0 0 20px white;
+    transform: scale(1.04);
+  }
+  70% {
+    background: var(--cyan);
+    box-shadow:
+      0 0 40px var(--cyan),
+      inset 0 0 20px white;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.draw-stroke {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: draw 0.5s ease-out forwards;
+}
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.pulse-ring {
+  animation: pulse-ring 1.6s ease-out infinite;
+}
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+.float-y {
+  animation: float-y 3.2s ease-in-out infinite alternate;
+}
+@keyframes float-y {
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+.marquee {
+  animation: marquee 40s linear infinite;
+}
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .backdrop .blob,
+  .backdrop .grid-floor,
+  .float-y,
+  .marquee,
+  .pulse-ring,
+  .glitch::before,
+  .glitch::after {
+    animation: none !important;
+  }
+  .shake {
+    animation-duration: 0.01s;
+  }
+}
+
+/* ---------- Fever mode ---------- */
+
+.fever-edges {
+  box-shadow:
+    inset 0 0 70px 6px rgb(255 43 214 / 0.5),
+    inset 0 0 180px 30px rgb(255 196 61 / 0.14);
+  animation: fever-pulse 0.55s ease-in-out infinite alternate;
+}
+@keyframes fever-pulse {
+  from {
+    opacity: 0.55;
+  }
+  to {
+    opacity: 1;
+  }
+}
+html[data-fever="on"] .backdrop {
+  filter: saturate(1.6) hue-rotate(25deg);
+}
+html[data-fever="on"] .backdrop .blob {
+  animation-duration: 6s;
+  opacity: 0.5;
+}
+html[data-fever="on"] .backdrop .grid-floor {
+  animation-duration: 1.2s;
+  opacity: 0.6;
+}
+@media (prefers-reduced-motion: reduce) {
+  .fever-edges {
+    animation: none;
+  }
+}
+
+/* Bars that grow in from the left without needing JavaScript. */
+.bar-grow {
+  transform-origin: left center;
+  animation: bar-grow 0.9s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+@keyframes bar-grow {
+  from {
+    transform: scaleX(0);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .bar-grow {
+    animation: none;
+  }
+}

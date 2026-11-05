@@ -1,0 +1,516 @@
+{
+  "locale": "en",
+  "items": [
+    {
+      "id": "ct-001",
+      "category": "FRUITS",
+      "members": ["APPLE", "BANANA", "MANGO", "GRAPE", "CHERRY", "PEACH", "LEMON", "PEAR"],
+      "intruders": ["CARROT", "POTATO", "ONION", "CHAIR"],
+      "difficulty": 1
+    },
+    {
+      "id": "ct-002",
+      "category": "MAMMALS",
+      "members": ["DOG", "WHALE", "HORSE", "LION", "BAT", "TIGER", "COW"],
+      "intruders": ["SHARK", "EAGLE", "SNAKE", "FROG"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-003",
+      "category": "COLORS",
+      "members": ["RED", "BLUE", "GREEN", "PURPLE", "YELLOW", "PINK"],
+      "intruders": ["TABLE", "CIRCLE", "SPOON"],
+      "difficulty": 1
+    },
+    {
+      "id": "ct-004",
+      "category": "PLANETS",
+      "members": ["MARS", "VENUS", "SATURN", "JUPITER", "MERCURY", "NEPTUNE", "URANUS", "EARTH"],
+      "intruders": ["MOON", "SUN", "PLUTO", "COMET"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-005",
+      "category": "SHAPES",
+      "members": ["CIRCLE", "SQUARE", "TRIANGLE", "OVAL", "HEXAGON"],
+      "intruders": ["PURPLE", "APPLE", "RIVER"],
+      "difficulty": 1
+    },
+    {
+      "id": "ct-006",
+      "category": "INSTRUMENTS",
+      "members": ["PIANO", "GUITAR", "VIOLIN", "DRUMS", "FLUTE", "TRUMPET", "HARP"],
+      "intruders": ["HAMMER", "CAMERA", "LADDER"],
+      "difficulty": 1
+    },
+    {
+      "id": "ct-007",
+      "category": "VEHICLES",
+      "members": ["CAR", "BUS", "TRAIN", "BIKE", "TRUCK", "PLANE"],
+      "intruders": ["HOUSE", "TREE", "BRIDGE"],
+      "difficulty": 1
+    },
+    {
+      "id": "ct-008",
+      "category": "BODY PARTS",
+      "members": ["ARM", "LEG", "NOSE", "EAR", "KNEE", "ELBOW", "ANKLE"],
+      "intruders": ["SHOE", "GLOVE", "HAT"],
+      "difficulty": 1
+    },
+    {
+      "id": "ct-009",
+      "category": "KITCHENWARE",
+      "members": ["SPOON", "FORK", "KNIFE", "PLATE", "BOWL", "CUP", "PAN"],
+      "intruders": ["PILLOW", "SOCK", "RULER"],
+      "difficulty": 1
+    },
+    {
+      "id": "ct-010",
+      "category": "BIRDS",
+      "members": ["EAGLE", "OWL", "PARROT", "PENGUIN", "CROW", "ROBIN", "OSTRICH"],
+      "intruders": ["BAT", "BEE", "BUTTERFLY"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-011",
+      "category": "COUNTRIES",
+      "members": ["FRANCE", "JAPAN", "BRAZIL", "CANADA", "EGYPT", "INDIA", "KENYA"],
+      "intruders": ["PARIS", "TOKYO", "LONDON"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-012",
+      "category": "SPORTS",
+      "members": ["SOCCER", "TENNIS", "GOLF", "HOCKEY", "BOXING", "RUGBY", "CRICKET"],
+      "intruders": ["PIANO", "PAINTING", "COOKING"],
+      "difficulty": 1
+    },
+    {
+      "id": "ct-013",
+      "category": "WEATHER",
+      "members": ["RAIN", "SNOW", "WIND", "FOG", "HAIL", "STORM", "THUNDER"],
+      "intruders": ["ROCK", "SAND", "GLASS"],
+      "difficulty": 1
+    },
+    {
+      "id": "ct-014",
+      "category": "METALS",
+      "members": ["GOLD", "SILVER", "IRON", "COPPER", "TIN", "ZINC", "NICKEL"],
+      "intruders": ["WOOD", "PLASTIC", "GLASS", "PAPER"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-015",
+      "category": "FURNITURE",
+      "members": ["CHAIR", "TABLE", "SOFA", "BED", "DESK", "SHELF", "STOOL"],
+      "intruders": ["APPLE", "CLOUD", "TIGER"],
+      "difficulty": 1
+    },
+    {
+      "id": "ct-016",
+      "category": "FEELINGS",
+      "members": ["HAPPY", "SAD", "ANGRY", "AFRAID", "PROUD", "CALM", "JEALOUS"],
+      "intruders": ["TALL", "SQUARE", "WOODEN"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-017",
+      "category": "SEA ANIMALS",
+      "members": ["SHARK", "DOLPHIN", "OCTOPUS", "WHALE", "CRAB", "SQUID", "JELLYFISH"],
+      "intruders": ["CAMEL", "PARROT", "TIGER"],
+      "difficulty": 1
+    },
+    {
+      "id": "ct-018",
+      "category": "TREES",
+      "members": ["OAK", "PINE", "MAPLE", "BIRCH", "PALM", "WILLOW", "CEDAR"],
+      "intruders": ["ROSE", "TULIP", "DAISY"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-019",
+      "category": "FLOWERS",
+      "members": ["ROSE", "TULIP", "DAISY", "LILY", "ORCHID", "SUNFLOWER", "LOTUS"],
+      "intruders": ["OAK", "PINE", "CARROT"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-020",
+      "category": "DRINKS",
+      "members": ["WATER", "MILK", "JUICE", "TEA", "COFFEE", "SODA", "COCOA"],
+      "intruders": ["BREAD", "CHEESE", "RICE"],
+      "difficulty": 1
+    },
+    {
+      "id": "ct-021",
+      "category": "CLOTHING",
+      "members": ["SHIRT", "JACKET", "SKIRT", "SCARF", "COAT", "SOCKS", "DRESS"],
+      "intruders": ["SPOON", "PILLOW", "TABLE"],
+      "difficulty": 1
+    },
+    {
+      "id": "ct-022",
+      "category": "TOOLS",
+      "members": ["HAMMER", "SAW", "DRILL", "WRENCH", "SHOVEL", "PLIERS", "AXE"],
+      "intruders": ["VIOLIN", "BANANA", "PILLOW"],
+      "difficulty": 1
+    },
+    {
+      "id": "ct-023",
+      "category": "VEGETABLES",
+      "members": ["CARROT", "POTATO", "ONION", "LETTUCE", "SPINACH", "CABBAGE", "BROCCOLI"],
+      "intruders": ["APPLE", "MANGO", "CHERRY"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-024",
+      "category": "REPTILES",
+      "members": ["SNAKE", "LIZARD", "TURTLE", "GECKO", "IGUANA", "CROCODILE", "CHAMELEON"],
+      "intruders": ["FROG", "SALAMANDER", "DOLPHIN"],
+      "difficulty": 3
+    },
+    {
+      "id": "ct-025",
+      "category": "NUMBERS",
+      "members": ["ONE", "SEVEN", "TWELVE", "FIFTY", "NINE", "THREE"],
+      "intruders": ["GREEN", "CHAIR", "MOUSE"],
+      "difficulty": 1
+    },
+    {
+      "id": "ct-026",
+      "category": "CONTINENTS",
+      "members": ["AFRICA", "ASIA", "EUROPE", "AUSTRALIA", "ANTARCTICA"],
+      "intruders": ["CANADA", "BRAZIL", "GREENLAND"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-027",
+      "category": "INSECTS",
+      "members": ["ANT", "BEE", "BEETLE", "WASP", "MOTH", "FLY"],
+      "intruders": ["SPIDER", "SCORPION", "WORM"],
+      "difficulty": 3
+    },
+    {
+      "id": "ct-028",
+      "category": "JOBS",
+      "members": ["DOCTOR", "TEACHER", "PILOT", "CHEF", "FARMER", "NURSE", "LAWYER"],
+      "intruders": ["HOSPITAL", "SCHOOL", "KITCHEN"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-029",
+      "category": "DESSERTS",
+      "members": ["CAKE", "COOKIE", "PIE", "PUDDING", "BROWNIE", "DONUT", "CUSTARD"],
+      "intruders": ["SOUP", "SALAD", "STEAK"],
+      "difficulty": 1
+    },
+    {
+      "id": "ct-030",
+      "category": "GASES",
+      "members": ["OXYGEN", "HYDROGEN", "HELIUM", "NITROGEN", "NEON", "ARGON"],
+      "intruders": ["IRON", "GOLD", "COPPER"],
+      "difficulty": 3
+    },
+    {
+      "id": "ct-031",
+      "category": "WATER BODIES",
+      "members": ["RIVER", "LAKE", "OCEAN", "SEA", "POND", "STREAM", "LAGOON"],
+      "intruders": ["DESERT", "VALLEY", "FOREST"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-032",
+      "category": "MONTHS",
+      "members": ["JANUARY", "MARCH", "JULY", "OCTOBER", "MAY", "AUGUST"],
+      "intruders": ["MONDAY", "FRIDAY", "SUNDAY"],
+      "difficulty": 1
+    },
+    {
+      "id": "ct-033",
+      "category": "DAYS",
+      "members": ["MONDAY", "TUESDAY", "FRIDAY", "SUNDAY", "THURSDAY"],
+      "intruders": ["JUNE", "APRIL", "MARCH"],
+      "difficulty": 1
+    },
+    {
+      "id": "ct-034",
+      "category": "BIG CATS",
+      "members": ["LION", "TIGER", "LEOPARD", "JAGUAR", "CHEETAH", "PUMA"],
+      "intruders": ["WOLF", "HYENA", "BEAR"],
+      "difficulty": 3
+    },
+    {
+      "id": "ct-035",
+      "category": "NUTS",
+      "members": ["ALMOND", "WALNUT", "CASHEW", "PECAN", "HAZELNUT", "PISTACHIO"],
+      "intruders": ["RAISIN", "CARROT", "CELERY"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-036",
+      "category": "CHESS PIECES",
+      "members": ["KING", "QUEEN", "ROOK", "BISHOP", "KNIGHT", "PAWN"],
+      "intruders": ["JOKER", "ACE", "DICE"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-037",
+      "category": "DOG BREEDS",
+      "members": ["POODLE", "BEAGLE", "BOXER", "HUSKY", "PUG", "DALMATIAN"],
+      "intruders": ["SIAMESE", "PERSIAN", "PARROT"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-9d22767a",
+      "category": "FISH",
+      "members": ["SALMON", "TROUT", "COD", "TUNA", "HERRING", "CARP", "EEL"],
+      "intruders": ["DOLPHIN", "LOBSTER", "SQUID", "OCTOPUS"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-241407f9",
+      "category": "GRAINS",
+      "members": ["WHEAT", "RICE", "OATS", "BARLEY", "CORN", "RYE", "MILLET"],
+      "intruders": ["BEAN", "LENTIL", "PEANUT"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-4be5812e",
+      "category": "PALINDROMES",
+      "members": ["LEVEL", "RADAR", "CIVIC", "KAYAK", "REFER", "ROTOR", "MADAM"],
+      "intruders": ["MIRROR", "ROCKET", "CIRCLE", "PALACE"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-e5d31289",
+      "category": "CHEMICAL ELEMENTS",
+      "members": ["OXYGEN", "IRON", "GOLD", "COPPER", "CARBON", "HELIUM", "NEON"],
+      "intruders": ["WATER", "STEEL", "BRONZE", "AIR"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-b0c45dd2",
+      "category": "BONES",
+      "members": ["FEMUR", "TIBIA", "SKULL", "RIBS", "SPINE", "PELVIS", "JAW"],
+      "intruders": ["MUSCLE", "TENDON", "CARTILAGE", "NERVE"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-9987d464",
+      "category": "CAPITALS",
+      "members": ["PARIS", "TOKYO", "CAIRO", "LIMA", "OTTAWA", "NAIROBI", "HANOI"],
+      "intruders": ["SYDNEY", "RIO", "ISTANBUL", "CHICAGO"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-5bc8f415",
+      "category": "CURRENCIES",
+      "members": ["DOLLAR", "EURO", "YEN", "POUND", "RUPEE", "FRANC", "PESO"],
+      "intruders": ["COIN", "CASH", "MONEY", "CREDIT"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-f3470e23",
+      "category": "LANGUAGES",
+      "members": ["ENGLISH", "SPANISH", "FRENCH", "ARABIC", "HINDI", "SWAHILI", "RUSSIAN"],
+      "intruders": ["BRAZIL", "AFRICA", "EUROPE"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-af547898",
+      "category": "MUSIC GENRES",
+      "members": ["JAZZ", "ROCK", "BLUES", "REGGAE", "TECHNO", "SOUL", "FOLK"],
+      "intruders": ["PIANO", "GUITAR", "DRUM", "VIOLIN"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-01b40829",
+      "category": "DANCES",
+      "members": ["TANGO", "SALSA", "WALTZ", "BALLET", "SAMBA", "POLKA", "JIVE"],
+      "intruders": ["MARCH", "SWIM", "RUN"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-55f0f62c",
+      "category": "LENGTH UNITS",
+      "members": ["METER", "MILE", "INCH", "YARD", "FOOT", "KILOMETER", "CENTIMETER"],
+      "intruders": ["GRAM", "LITER", "SECOND", "MINUTE"],
+      "difficulty": 3
+    },
+    {
+      "id": "ct-d5a3715b",
+      "category": "DESERTS",
+      "members": ["SAHARA", "GOBI", "KALAHARI", "ATACAMA", "MOJAVE", "NAMIB", "ARABIAN"],
+      "intruders": ["AMAZON", "EVEREST", "NILE"],
+      "difficulty": 3
+    },
+    {
+      "id": "ct-0ce7f35d",
+      "category": "GREEK LETTERS",
+      "members": ["ALPHA", "BETA", "GAMMA", "DELTA", "OMEGA", "SIGMA", "THETA"],
+      "intruders": ["ALPHABET", "LATIN", "NUMERAL", "SYMBOL"],
+      "difficulty": 3
+    },
+    {
+      "id": "ct-4cf59c13",
+      "category": "SPICES",
+      "members": ["PEPPER", "CINNAMON", "TURMERIC", "CUMIN", "GINGER", "NUTMEG", "SAFFRON"],
+      "intruders": ["SALT", "SUGAR", "FLOUR", "HONEY"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-de0c2d27",
+      "category": "LEGUMES",
+      "members": ["LENTIL", "CHICKPEA", "SOYBEAN", "PEANUT", "PEA", "BEAN"],
+      "intruders": ["RICE", "WHEAT", "OAT", "CORN"],
+      "difficulty": 3
+    },
+    {
+      "id": "ct-44e84236",
+      "category": "MYTHICAL CREATURES",
+      "members": ["DRAGON", "UNICORN", "MERMAID", "GRIFFIN", "PHOENIX", "CENTAUR", "GOBLIN"],
+      "intruders": ["DINOSAUR", "WHALE", "EAGLE", "SHARK"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-7317f704",
+      "category": "LANDLOCKED",
+      "members": ["NEPAL", "BOLIVIA", "CHAD", "MALI", "LAOS", "AUSTRIA", "HUNGARY"],
+      "intruders": ["ITALY", "FRANCE", "BRAZIL", "EGYPT"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-e9180ab2",
+      "category": "CRUSTACEANS",
+      "members": ["CRAB", "LOBSTER", "SHRIMP", "PRAWN", "CRAYFISH", "BARNACLE", "KRILL"],
+      "intruders": ["OCTOPUS", "SQUID", "SNAIL", "JELLYFISH"],
+      "difficulty": 3
+    },
+    {
+      "id": "ct-32a7eaac",
+      "category": "POLYGONS",
+      "members": ["TRIANGLE", "SQUARE", "PENTAGON", "HEXAGON", "OCTAGON", "RECTANGLE", "RHOMBUS"],
+      "intruders": ["CIRCLE", "OVAL", "SPHERE"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-77da195c",
+      "category": "RODENTS",
+      "members": ["MOUSE", "RAT", "HAMSTER", "SQUIRREL", "BEAVER", "GERBIL", "PORCUPINE"],
+      "intruders": ["RABBIT", "BAT", "HEDGEHOG"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-42760704",
+      "category": "BIRDS OF PREY",
+      "members": ["EAGLE", "HAWK", "FALCON", "VULTURE", "OWL", "KESTREL", "CONDOR"],
+      "intruders": ["SPARROW", "PIGEON", "DUCK"],
+      "difficulty": 3
+    },
+    {
+      "id": "ct-f7d99454",
+      "category": "MARSUPIALS",
+      "members": ["KANGAROO", "KOALA", "WOMBAT", "POSSUM", "WALLABY", "OPOSSUM"],
+      "intruders": ["RABBIT", "SQUIRREL", "BEAR"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-374edf66",
+      "category": "BABY ANIMALS",
+      "members": ["PUPPY", "KITTEN", "CALF", "FOAL", "CUB", "LAMB", "CHICK", "DUCKLING"],
+      "intruders": ["DOG", "HORSE", "SHEEP"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-9b10d51b",
+      "category": "ANIMAL HOMES",
+      "members": ["NEST", "DEN", "BURROW", "HIVE", "WEB", "STABLE", "KENNEL", "WARREN"],
+      "intruders": ["HOUSE", "TENT", "GARAGE"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-b993a47b",
+      "category": "COOKING METHODS",
+      "members": ["BOIL", "FRY", "BAKE", "GRILL", "ROAST", "STEAM", "POACH", "STEW"],
+      "intruders": ["EAT", "SERVE", "CHEW"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-426bf642",
+      "category": "APPLIANCES",
+      "members": ["OVEN", "TOASTER", "BLENDER", "FRIDGE", "MICROWAVE", "DISHWASHER"],
+      "intruders": ["SINK", "SPOON", "BATTERY"],
+      "difficulty": 3
+    },
+    {
+      "id": "ct-de0129e9",
+      "category": "FOOTWEAR",
+      "members": ["BOOT", "SHOE", "SANDAL", "SLIPPER", "SNEAKER", "CLOG", "MOCCASIN"],
+      "intruders": ["GLOVE", "SCARF", "HAT"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-d28b59e7",
+      "category": "HEADWEAR",
+      "members": ["HAT", "CAP", "HELMET", "BERET", "TURBAN", "BANDANA", "CROWN", "VEIL"],
+      "intruders": ["GLOVE", "BELT", "SOCK"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-4d237265",
+      "category": "PASTA",
+      "members": ["PENNE", "RIGATONI", "FUSILLI", "MACARONI", "SPAGHETTI", "FARFALLE", "TORTELLINI"],
+      "intruders": ["RICE", "BREAD", "POTATO"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-43aa5d8a",
+      "category": "CHEESES",
+      "members": ["CHEDDAR", "BRIE", "GOUDA", "FETA", "PARMESAN", "MOZZARELLA", "RICOTTA", "EDAM"],
+      "intruders": ["BUTTER", "YOGURT", "MILK"],
+      "difficulty": 3
+    },
+    {
+      "id": "ct-eacf077b",
+      "category": "CITRUS FRUITS",
+      "members": ["LEMON", "LIME", "ORANGE", "GRAPEFRUIT", "TANGERINE", "POMELO", "CITRON"],
+      "intruders": ["APPLE", "BANANA", "PEACH"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-fe0d4e30",
+      "category": "TROPICAL FRUITS",
+      "members": ["MANGO", "PAPAYA", "BANANA", "PINEAPPLE", "COCONUT", "GUAVA", "LYCHEE"],
+      "intruders": ["APPLE", "PEAR", "PLUM"],
+      "difficulty": 3
+    },
+    {
+      "id": "ct-e0d492a3",
+      "category": "MARTIAL ARTS",
+      "members": ["JUDO", "KARATE", "TAEKWONDO", "AIKIDO", "KUNG FU", "SUMO", "CAPOEIRA"],
+      "intruders": ["YOGA", "CHESS", "GYMNASTICS"],
+      "difficulty": 3
+    },
+    {
+      "id": "ct-f65b3625",
+      "category": "NATURAL DISASTERS",
+      "members": ["EARTHQUAKE", "FLOOD", "TORNADO", "HURRICANE", "TSUNAMI", "DROUGHT", "LANDSLIDE", "WILDFIRE"],
+      "intruders": ["RAINBOW", "SUNSET", "BREEZE"],
+      "difficulty": 2
+    },
+    {
+      "id": "ct-b8b1a487",
+      "category": "GEMSTONES",
+      "members": ["RUBY", "EMERALD", "SAPPHIRE", "DIAMOND", "OPAL", "TOPAZ", "AMETHYST", "JADE"],
+      "intruders": ["GLASS", "PLASTIC", "STEEL"],
+      "difficulty": 3
+    },
+    {
+      "id": "ct-afd38992",
+      "category": "ANIMALS THAT FLY",
+      "members": ["BAT", "BEE", "MOTH", "OWL", "EAGLE", "PARROT", "BUTTERFLY", "BEETLE"],
+      "intruders": ["PENGUIN", "OSTRICH", "KANGAROO"],
+      "difficulty": 2
+    }
+  ]
+}

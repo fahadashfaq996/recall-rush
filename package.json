@@ -1,0 +1,23 @@
+{
+  "name": "recall-rush",
+  "private": true,
+  "packageManager": "pnpm@11.1.2",
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "test": "pnpm --filter @recall/engine test",
+    "lint": "pnpm --filter web lint",
+    "typecheck": "pnpm -r typecheck",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "content:generate": "tsx scripts/content/generate.ts",
+    "content:check": "tsx scripts/content/check.ts",
+    "content:review": "tsx scripts/content/staged.ts review",
+    "content:apply": "tsx scripts/content/staged.ts apply",
+    "content:discard": "tsx scripts/content/staged.ts discard"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.10",
+    "tsx": "4.23.15"
+  }
+}

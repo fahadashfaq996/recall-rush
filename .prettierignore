@@ -1,0 +1,6 @@
+node_modules
+.next
+pnpm-lock.yaml
+apps/web/.data
+apps/web/next-env.d.ts
+supabase

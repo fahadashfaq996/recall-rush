@@ -1,0 +1,1211 @@
+{
+  "locale": "en",
+  "items": [
+    {
+      "id": "tf-001",
+      "statement": "The Sun is a star.",
+      "truth": true,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-002",
+      "statement": "Water boils at 100°C at sea level.",
+      "truth": true,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-003",
+      "statement": "Spiders have eight legs.",
+      "truth": true,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-004",
+      "statement": "A triangle has three sides.",
+      "truth": true,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-005",
+      "statement": "Penguins are birds.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-006",
+      "statement": "The Pacific is the largest ocean.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-007",
+      "statement": "Bats are mammals.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-008",
+      "statement": "Ice is frozen water.",
+      "truth": true,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-009",
+      "statement": "Bees make honey.",
+      "truth": true,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-010",
+      "statement": "The Earth orbits the Sun.",
+      "truth": true,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-011",
+      "statement": "Light travels faster than sound.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-012",
+      "statement": "Dolphins breathe air.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-013",
+      "statement": "Botanically, a tomato is a fruit.",
+      "truth": true,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-014",
+      "statement": "An octopus has three hearts.",
+      "truth": true,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-015",
+      "statement": "Gold is a metal.",
+      "truth": true,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-016",
+      "statement": "The Moon orbits the Earth.",
+      "truth": true,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-017",
+      "statement": "An adult human has 206 bones.",
+      "truth": true,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-018",
+      "statement": "Venus is the hottest planet.",
+      "truth": true,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-019",
+      "statement": "Sharks are fish.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-020",
+      "statement": "Spiders are not insects.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-021",
+      "statement": "Lightning is hotter than the Sun's surface.",
+      "truth": true,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-022",
+      "statement": "The heart pumps blood.",
+      "truth": true,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-023",
+      "statement": "Snakes have no legs.",
+      "truth": true,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-024",
+      "statement": "A year has twelve months.",
+      "truth": true,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-025",
+      "statement": "Diamonds are made of carbon.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-026",
+      "statement": "Australia is a continent.",
+      "truth": true,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-027",
+      "statement": "Antarctica is the coldest continent.",
+      "truth": true,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-028",
+      "statement": "Hummingbirds can fly backwards.",
+      "truth": true,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-029",
+      "statement": "The Nile is in Africa.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-030",
+      "statement": "Kangaroos live in Australia.",
+      "truth": true,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-031",
+      "statement": "Plants use carbon dioxide to make food.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-032",
+      "statement": "Cats are mammals.",
+      "truth": true,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-033",
+      "statement": "A frog is an amphibian.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-034",
+      "statement": "Mount Everest is the tallest mountain above sea level.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-035",
+      "statement": "A spider spins silk.",
+      "truth": true,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-036",
+      "statement": "Whales are mammals.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-037",
+      "statement": "The Sun orbits the Earth.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-038",
+      "statement": "Spiders are insects.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-039",
+      "statement": "Bats are completely blind.",
+      "truth": false,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-040",
+      "statement": "A square has five sides.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-041",
+      "statement": "Penguins can fly.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-042",
+      "statement": "Whales are fish.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-043",
+      "statement": "The Moon makes its own light.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-044",
+      "statement": "Water freezes at 10°C.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-045",
+      "statement": "Humans have three lungs.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-046",
+      "statement": "Mars is the closest planet to the Sun.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-047",
+      "statement": "Lightning never strikes the same place twice.",
+      "truth": false,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-048",
+      "statement": "Goldfish only remember things for three seconds.",
+      "truth": false,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-049",
+      "statement": "The Great Wall is visible from the Moon by eye.",
+      "truth": false,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-050",
+      "statement": "Sound travels faster than light.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-051",
+      "statement": "Ice sinks in water.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-052",
+      "statement": "Sharks are mammals.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-053",
+      "statement": "A week has eight days.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-054",
+      "statement": "The Pacific is the smallest ocean.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-055",
+      "statement": "Snakes have four legs.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-056",
+      "statement": "Diamonds are made of iron.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-057",
+      "statement": "Mount Everest is in Africa.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-058",
+      "statement": "Antarctica is the hottest continent.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-059",
+      "statement": "Dolphins are fish.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-060",
+      "statement": "The Nile is in South America.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-061",
+      "statement": "Gold is a gas at room temperature.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-062",
+      "statement": "Bananas grow underground.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-063",
+      "statement": "An octopus has only one heart.",
+      "truth": false,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-064",
+      "statement": "A frog is a reptile.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-065",
+      "statement": "Cats are reptiles.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-066",
+      "statement": "Wild kangaroos live in Canada.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-067",
+      "statement": "A year has ten months.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-068",
+      "statement": "Plants grow best in total darkness.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-069",
+      "statement": "Bees make milk.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-070",
+      "statement": "The Earth is flat.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-6846f2b6",
+      "statement": "There is no gravity in space.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-1ce97ff3",
+      "statement": "Octopus blood is blue.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-6b2c485b",
+      "statement": "A duck's quack does not echo.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-5f8d2345",
+      "statement": "Polar bear skin is black.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-912d9ece",
+      "statement": "Ostriches bury their heads in sand.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-3735bdb5",
+      "statement": "A giraffe has seven neck bones.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-c4588d44",
+      "statement": "Humans use only 10% of their brain.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-175d53c6",
+      "statement": "Cats cannot taste sweetness.",
+      "truth": true,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-487dc70e",
+      "statement": "The tongue has taste zones for sweet and sour.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-e378c0da",
+      "statement": "The brain has no pain receptors.",
+      "truth": true,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-303e97e2",
+      "statement": "Glass is a slow-moving liquid.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-7186096f",
+      "statement": "Mushrooms are more closely related to animals than plants.",
+      "truth": true,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-85562839",
+      "statement": "Air is mostly oxygen.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-0daeb3fb",
+      "statement": "Antarctica is a desert.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-223e8b81",
+      "statement": "Botanically, a banana is a berry.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-f9a0d58f",
+      "statement": "Sound travels faster in water than in air.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-9f2d9696",
+      "statement": "Pineapples grow on trees.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-97d5e386",
+      "statement": "Venus rotates more slowly than it orbits the Sun.",
+      "truth": true,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-5a981c01",
+      "statement": "Your head loses more heat than the rest of your body.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-04013816",
+      "statement": "There are more trees on Earth than stars in the Milky Way.",
+      "truth": true,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-0f0e627a",
+      "statement": "Shaving makes hair grow back thicker.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-a1ccc828",
+      "statement": "Some turtles can breathe through their rear end.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-6f3ad668",
+      "statement": "Bulls are enraged by the color red.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-8bb7d6b1",
+      "statement": "Wombat poop is cube-shaped.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-95ec4f0a",
+      "statement": "Dogs see only in black and white.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-bab30fb3",
+      "statement": "Saturn is less dense than water.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-7022611b",
+      "statement": "Chewing gum stays in your body for seven years.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-cd38fe3a",
+      "statement": "The North Star is not the brightest star.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-ed64c7c0",
+      "statement": "The Coriolis effect controls toilet flush direction.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-151ee539",
+      "statement": "A newborn baby has more bones than an adult.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-62c03a80",
+      "statement": "Mount Everest is the farthest point from Earth's center.",
+      "truth": false,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-31827878",
+      "statement": "The liver can regrow lost tissue.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-a84a7296",
+      "statement": "The Moon has a permanently dark side.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-9952498d",
+      "statement": "Africa has the most countries of any continent.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-fb33bb92",
+      "statement": "Spicy food causes stomach ulcers.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-f668e402",
+      "statement": "Green tea and black tea come from the same plant.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-8c29797e",
+      "statement": "Searing meat seals in the juices.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-21762c8d",
+      "statement": "Cracking knuckles causes arthritis.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-9e06d86d",
+      "statement": "Octopuses can taste with their arms.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-fea4c233",
+      "statement": "Eating sugar makes children hyperactive.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-ff623de8",
+      "statement": "Food dropped on the floor is safe if picked up within five seconds.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-0fef4140",
+      "statement": "Some frogs can survive being frozen for weeks.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-d56d78de",
+      "statement": "Lemmings follow each other off cliffs.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-abd48d5e",
+      "statement": "Bamboo can grow nearly a meter in one day.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-d0ece46a",
+      "statement": "A worm cut in half becomes two living worms.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-18f5dbaa",
+      "statement": "Mars has water ice at its poles.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-6efbc240",
+      "statement": "Chameleons change color only to hide.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-3d346121",
+      "statement": "The Moon is slowly moving away from Earth.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-cc95f7be",
+      "statement": "Hair and nails continue to grow after death.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-560cbd11",
+      "statement": "Bananas are slightly radioactive.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-393660dd",
+      "statement": "The Sahara is the largest desert on Earth.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-1681712c",
+      "statement": "Camels store water in their humps.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-0913950d",
+      "statement": "A cockroach can survive for days without its head.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-cf607ac7",
+      "statement": "Antibiotics can cure the common cold.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-1ea0e8e8",
+      "statement": "A teaspoon of neutron star material would weigh billions of tons.",
+      "truth": true,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-deddbb6c",
+      "statement": "A snail can have thousands of teeth.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-af33eac2",
+      "statement": "Butterflies taste with their feet.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-926d2594",
+      "statement": "A group of crows is called a murder.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-3ec801b3",
+      "statement": "An ostrich's eye is bigger than its brain.",
+      "truth": true,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-6aa839f0",
+      "statement": "Starfish can regrow lost arms.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-87fd1b01",
+      "statement": "There is no sound in space.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-2ab6e520",
+      "statement": "A crocodile cannot stick out its tongue.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-7b8f89b7",
+      "statement": "A jiffy is a real unit of time.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-4e635359",
+      "statement": "Dogs age seven years for every human year.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-487a538a",
+      "statement": "Eating carrots improves night vision.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-5d1f82c8",
+      "statement": "You must drink eight glasses of water daily.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-86817e7f",
+      "statement": "A penny dropped from a skyscraper can kill someone.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-eff07cb1",
+      "statement": "Bats are rodents.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-68e32bbe",
+      "statement": "Sharks don't get cancer.",
+      "truth": false,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-d2385685",
+      "statement": "You should wait an hour after eating to swim.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-816171c5",
+      "statement": "Your blood is blue inside your body.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-c87cedab",
+      "statement": "Sea otters hold hands while sleeping.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-dde9a66f",
+      "statement": "A day on Earth is getting longer.",
+      "truth": true,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-071ca52b",
+      "statement": "Sharks have no bones.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-61fdd1f3",
+      "statement": "Some penguins propose with a pebble.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-2d6d7bd9",
+      "statement": "Earth's core is about as hot as the Sun's surface.",
+      "truth": true,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-57a2bc63",
+      "statement": "A coin and a feather fall at the same rate in a vacuum.",
+      "truth": true,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-3fd2c7cc",
+      "statement": "Mars has the tallest volcano in the solar system.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-7a2e26bc",
+      "statement": "Carrots were originally purple.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-a989c07e",
+      "statement": "A group of flamingos is called a flamboyance.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-a23e250e",
+      "statement": "Vikings wore horned helmets.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-eed69f1f",
+      "statement": "Humans and dinosaurs lived at the same time.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-3e072fca",
+      "statement": "The Amazon rainforest produces 20% of Earth's oxygen.",
+      "truth": false,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-74e90637",
+      "statement": "The tongue is the strongest muscle in your body.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-abdfb5dc",
+      "statement": "Your body replaces all its cells every seven years.",
+      "truth": false,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-e666fb6c",
+      "statement": "Saturn's rings are made of gas.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-d2a92cea",
+      "statement": "The Great Wall of China is a single unbroken wall.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-5b1b5f2b",
+      "statement": "Humans have exactly five senses.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-6e126d02",
+      "statement": "Mice prefer cheese above all other foods.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-766aed5d",
+      "statement": "Male seahorses give birth.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-fe8595f6",
+      "statement": "A cheetah cannot roar.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-c10b0494",
+      "statement": "A rat cannot vomit.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-0fbbc1c4",
+      "statement": "Bamboo is a type of grass.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-5b588c10",
+      "statement": "A strawberry is not a true berry.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-2e1f0153",
+      "statement": "Water can boil and freeze at the same time.",
+      "truth": true,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-20107929",
+      "statement": "A diamond can shatter if hit with a hammer.",
+      "truth": true,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-cb1f1ac3",
+      "statement": "You are taller in the morning than at night.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-0c6f0c7b",
+      "statement": "Owls can rotate their heads 360 degrees.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-1d46d418",
+      "statement": "Ants never sleep.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-f525e54c",
+      "statement": "Your heart stops when you sneeze.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-bb2bd0ed",
+      "statement": "You catch a cold by getting cold.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-2b395b45",
+      "statement": "Eating bread crusts makes your hair curly.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-fecbc1f3",
+      "statement": "A coconut is a true nut.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-c9990e61",
+      "statement": "A mushroom is a plant.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-3dc93f3c",
+      "statement": "All deserts are hot.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-19acac0c",
+      "statement": "The Moon is a planet.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-82b07d91",
+      "statement": "Piranhas can strip a cow to the bone in seconds.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-a20f41bb",
+      "statement": "Queen bees can lay over 1,000 eggs a day.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-06dcf599",
+      "statement": "Touch a toad and you'll get warts.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-74915d1a",
+      "statement": "The smallest bone in the human body is in the ear.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-4868323e",
+      "statement": "Vitamin C cures the common cold.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-66ee274d",
+      "statement": "Your stomach lining replaces itself every few days.",
+      "truth": true,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-1bdba8fa",
+      "statement": "A shark can smell a drop of blood from miles away.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-c3c8a5d1",
+      "statement": "The Sun's light takes about 8 minutes to reach Earth.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-17b73fc5",
+      "statement": "A camel can go a year without water.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-a5adf339",
+      "statement": "Lake Baikal holds about 20% of the world's fresh surface water.",
+      "truth": true,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-2e37e410",
+      "statement": "Reading in dim light ruins your eyes.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-096068d8",
+      "statement": "Dry ice is frozen carbon dioxide.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-6a7812a8",
+      "statement": "Microwave ovens make food radioactive.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-ecb40732",
+      "statement": "Cinnamon comes from tree bark.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-ae77f269",
+      "statement": "Brown eggs are more nutritious than white eggs.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-14bac9f5",
+      "statement": "A dog's nose print is as unique as a fingerprint.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-5a52f652",
+      "statement": "A group of rhinos is called a crash.",
+      "truth": true,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-92b4523d",
+      "statement": "Australia is wider than the Moon.",
+      "truth": true,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-87321b14",
+      "statement": "The Amazon River has no bridges crossing it.",
+      "truth": true,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-cf69d1c8",
+      "statement": "Cashews grow on a fruit called the cashew apple.",
+      "truth": true,
+      "difficulty": 3
+    },
+    {
+      "id": "tf-301060c1",
+      "statement": "Your left lung is smaller than your right lung.",
+      "truth": true,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-5b58c486",
+      "statement": "A light-year measures time.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-2d1964f0",
+      "statement": "Fortune cookies were invented in China.",
+      "truth": false,
+      "difficulty": 2
+    },
+    {
+      "id": "tf-34370081",
+      "statement": "Helium is heavier than air.",
+      "truth": false,
+      "difficulty": 1
+    },
+    {
+      "id": "tf-b1a85c72",
+      "statement": "Teeth are bones.",
+      "truth": false,
+      "difficulty": 1
+    }
+  ]
+}
